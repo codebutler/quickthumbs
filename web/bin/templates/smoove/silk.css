@@ -1,0 +1,199 @@
+body {
+	font-size: 10px;
+	font-family: verdana, none, arial, helvetica;
+        background-color: #777777;
+	margin: 12px;
+	color: #000000;
+}
+
+hr {
+	height: 1px;
+	background-color: #9c9c9c;
+	border: 0px;
+	clear: both;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+#header {
+	text-align: left;
+	width: 750px;  
+	background: #aaaaaa;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	-moz-border-radius: 10px;
+}
+
+#headerTop {
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	background-color: #dddddd;
+	padding: 10px;
+}
+div#title {
+	float: left;
+}
+#title {
+	font-weight: bold;
+	font-size: small;
+}
+#image {
+	text-align: center;
+}
+#image img {
+	padding: 5px;
+        background-color: #aaaaaa;
+       border: 1px solid #bbb;
+
+}
+
+#imageCount {
+	text-align: right;
+}
+#headerBottom {
+	padding: 10px;
+}
+#parentLink {
+	text-align: right;
+}
+#parentLink a {
+	text-decoration: none;
+	color: #555555;
+}
+
+#parentLink a:hover {
+	text-decoration: underline;
+}
+
+#picBox {
+	width: 800px;
+}
+
+#dirBox {
+}
+
+.listItem {
+	float: left;
+	width: 161px;
+}
+
+.picItem {
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 5px 20px 20px;
+}
+
+.picItem img {
+	background-color: #aaaaaa;
+	margin-bottom: 6px;
+	padding: 6px;
+	border: 1px solid #bbb;
+}
+
+.picName {
+	color: #ddd;
+	font-weight: bold;
+}
+.picSize {
+	color: #aaa;
+}
+.dirItem {
+	height: 1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 20px;
+	
+	margin-left: 5px;
+	margin-bottom: 5px;
+	
+        background-image: url("?GetSpecialImage=folder.png");
+	background-position: center left;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+
+.dirItem a {
+	color: #ddd;
+}
+
+#url a {
+	text-decoration: none;
+	color: inherit;
+}
+#url a:hover {
+	text-decoration: underline;
+}
+#sizeList {
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 15px;
+}
+
+#sizeList li {
+	display: inline;
+	border-left: 1px solid #aaa;
+	padding-left: 5px;
+}
+#sizeList li a {
+	text-decoration: none;
+	color: #ccc;
+}
+#sizeList li a:hover {
+	color: #fff;
+}
+		 
+
+#sizeList li:first-child {
+	border-left: 0px !important;
+}
+
+#errors {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#errors p {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	background-color: #aaaaaa;
+	border: 1px solid #bbb;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #aaaaaa;
+	padding: 10px;
+	border-top: 1px dotted #bbbbbb;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+#footer a {
+	color: navy;
+}
+
+#exifInfo {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ccc;
+
+}
+#exifInfo th {
+        background-color: #aaaaaa;
+}
+#exifInfo td {
+        text-align: left;
+}
+
